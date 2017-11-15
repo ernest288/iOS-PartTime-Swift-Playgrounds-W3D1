@@ -24,7 +24,7 @@ favourites["beer"] = "Blue Buck" // notice how "beer" didn't have to exist
 //:
 //: Add your favourite color to the favourites dictionary
 
-
+favourites["color"] = "Red"
 
 
 
@@ -32,7 +32,7 @@ favourites["beer"] = "Blue Buck" // notice how "beer" didn't have to exist
 //:
 //: Change the value in the fruit key to match your favourite fruite
 
-
+favourites["fruit"]="Durian"
 
 
 
@@ -40,6 +40,13 @@ favourites["beer"] = "Blue Buck" // notice how "beer" didn't have to exist
 //: ### Bonus Challenge
 //:
 //: Create your own empty dictionary for student scores. The key for this dictionary will be a student name, the value will be the score they got in the latest test. For this example add Dan's score to be 100, Cory's score to be 90, and Jeremy's score to be 80
+
+var studentScore = [String : Int] ()
+
+studentScore ["Dan"] = 100
+studentScore ["Cory"] = 90
+studentScore ["Jeremy"] = 80
+
 
 
 
